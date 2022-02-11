@@ -6,7 +6,7 @@
 name: porter-test-me
 version: 0.1.0
 description: "Porter bundle with test behaviors"
-registry: ghcr.io/bdegeeter
+registry: ghcr.io/sgettys
 
 # If you want to customize the Dockerfile in use, uncomment the line below and update the referenced file.
 # See https://porter.sh/custom-dockerfile/
