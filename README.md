@@ -6,14 +6,14 @@ Simple bundle with behaviors for testing workflows
 
 Run porter explain for details
 ```
-porter explain --reference ghcr.io/bdegeeter/porter-test-me-installer:v0.1.0
+porter explain --reference ghcr.io/bdegeeter/porter-test-me-installer:v0.2.0
 ```
 
 ```
 Name: porter-test-me
 Description: Porter bundle with test behaviors
-Version: 0.1.0
-Porter Version: v0.38.7
+Version: 0.2.0
+Porter Version: v1.0.0-alpha.12
 
 Credentials:
 Name            Description                Required   Applies To
