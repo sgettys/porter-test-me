@@ -48,6 +48,7 @@ outputs:
   - name: outExitStatus
     description: exitStatus parameter value
     type: integer
+  - name: outCredentials
 
 install:
   - exec:
