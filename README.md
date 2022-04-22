@@ -6,13 +6,13 @@ Simple bundle with behaviors for testing workflows
 
 Run porter explain for details
 ```
-porter explain --reference ghcr.io/bdegeeter/porter-test-me-installer:v0.2.0
+porter explain --reference ghcr.io/bdegeeter/porter-test-me-installer:v0.3.0
 ```
 
 ```
 Name: porter-test-me
 Description: Porter bundle with test behaviors
-Version: 0.2.0
+Version: 0.3.0
 Porter Version: v1.0.0-alpha.12
 
 Credentials:
@@ -25,10 +25,11 @@ delay        sleep (in seconds) before exiting   integer   0         false      
 exitStatus   control exit status code            integer   0         false      All Actions
 
 Outputs:
-Name            Description                  Type      Applies To
-outAction       bundle action                string    All Actions
-outDelay        delay parameter value        integer   All Actions
-outExitStatus   exitStatus parameter value   integer   All Actions
+Name              Description                  Type      Applies To
+outAction         bundle action                string    All Actions
+outDelay          delay parameter value        integer   All Actions
+outExitStatus     exitStatus parameter value   integer   All Actions
+outInsecureValue  insecureValue secret value   string    All Actions  
 
 No custom actions defined
 
