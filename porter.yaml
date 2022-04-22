@@ -65,7 +65,7 @@ install:
         - name: outExitStatus
           jsonPath: "$.config.parameters.exitStatus"
         - name: outCredentials
-          jsonPath: "$.config.credentials"
+          jsonPath: "$.credentials"
 
 uninstall:
   - exec:
