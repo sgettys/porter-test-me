@@ -4,7 +4,7 @@
 # Uncomment out the sections below to take full advantage of what Porter can do!
 
 name: porter-test-me
-version: 0.2.0
+version: 0.3.0
 description: "Porter bundle with test behaviors"
 registry: ghcr.io/bdegeeter
 
@@ -64,6 +64,8 @@ install:
           jsonPath: "$.config.parameters.delay"
         - name: outExitStatus
           jsonPath: "$.config.parameters.exitStatus"
+        - name: outCredentials
+          jsonPath: "$.config.credentials"
 
 uninstall:
   - exec:
