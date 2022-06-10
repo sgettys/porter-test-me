@@ -2,7 +2,7 @@
 # You must define steps for each action, but the rest is optional
 # See https://porter.sh/author-bundles for documentation on how to configure your bundle
 # Uncomment out the sections below to take full advantage of what Porter can do!
-
+schemaVersion: 1.0.0-alpha.1
 name: porter-test-me
 version: 0.4.0
 description: "Porter bundle with test behaviors"
