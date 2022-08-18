@@ -51,6 +51,8 @@ outputs:
   - name: outInsecureValue
     description: insecureValue secret value
     type: string
+    applyTo:
+      - install
 
 install:
   - exec:
