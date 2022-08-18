@@ -62,7 +62,7 @@ jobs:
           # Strip git ref prefix from version
           BUNDLE_VERSION=${{ steps.getBundleVersion.outputs.result }}
           REF_VERSION=$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')
-          CI_VERSION=v${BUNDLE_VERSION}-${REF_VERSION}
+          CI_VERSION=${BUNDLE_VERSION}-${REF_VERSION}
           # Strip "v" prefix from tag name
           [[ "${{ github.ref }}" == "refs/tags/"* ]] && CI_VERSION=$(echo ${REF_VERSION} | sed -e 's/^v//')
 
